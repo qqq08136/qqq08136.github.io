@@ -1,0 +1,85 @@
+[
+	{
+		"title": "机构详情",
+		"icon": "icon-jigou",
+		"spread": false,
+		"children": [
+			{
+				"title": "机构资料",
+				"icon": "icon-ziliao",
+				"href": "./src/broker_infoId.html"
+			}
+		]
+	},{
+		"title": "应用资料",
+		"icon": "icon-552cc21bdf398-copy",
+		"href": "./src/app_manage.html",
+		"spread": false
+	},{
+		"title": "认证记录",
+		"icon": "icon-renzheng",
+		"href": "./src/authenticationUser_list.html",
+		"spread": false
+	},{
+		"title": "账单管理",
+		"icon": "icon-zhangdan",
+		"spread": false,
+		"children": [
+			{
+				"title": "充值记录",
+				"icon": "icon-chongdianjilu",
+				"href": "./src/order_list.html"
+			}, {
+				"title": "扣费统计",
+				"icon": "icon-koufeimingxi",
+				"href": "./src/companyInfo_list.html"
+			}, {
+				"title": "退款申请",
+				"icon": "icon-shenqingtuikuandedingdan",
+				"href": "./src/payInfo.html"
+			}, {
+				"title": "充值",
+				"icon": "icon-chongzhi",
+				"href": "./src/drawbackApplyInfo.html"
+			}, {
+				"title": "发票申请",
+				"icon": "icon-fapiao",
+				"href": "./src/invoice_info.html"
+			}
+		]
+	}, {
+		"title": "技术问题反馈",
+		"icon": "icon-fankui",
+		"href": "./src/companyQuestion_art.html",
+		"spread": false
+	},{
+		"title": "SDK和接入文档",
+		"icon": "icon-wendang",
+		"href": "./src/sdk_doc_dow.html",
+		"spread": false
+	},{
+		"title": "地址本",
+		"icon": "&#xe630;",
+		"href": "",
+		"spread": false,
+		"children": [
+			{
+				"title": "Github",
+				"icon": "",
+				"href": "https://www.github.com/"
+			}, {
+				"title": "QQ",
+				"icon": "",
+				"href": "http://www.qq.com/"
+			}, {
+				"title": "Fly社区",
+				"icon": "",
+				"href": "http://fly.layui.com/"
+			}, {
+				"title": "新浪微博",
+				"icon": "",
+				"href": "http://weibo.com/"
+			}
+		]
+	}
+]
